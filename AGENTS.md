@@ -18,8 +18,10 @@ Zeiten gelten in `Europe/Berlin`.
    Abschnitt.
 4. **Frontmatter bleibt flach.** Nur Text, Liste, Zahl, Checkbox, Datum,
    Datum mit Uhrzeit. Keine verschachtelten Abbildungen, keine leeren Werte.
-5. **Wenn du änderst, schreib es hin.** `modified` auf jetzt, `modified_by`
-   auf deinen Modellnamen.
+5. **Wenn du änderst, schreib es hin.** `modified` auf jetzt **in UTC**,
+   `modified_by` auf deinen Modellnamen. UTC, weil ein Import allein an
+   `modified` entscheidet, welche Fassung die jüngere ist — Ortszeit ist
+   dafür nicht vergleichbar. Ereigniszeiten wie `starts_at` bleiben Ortszeit.
 6. **`typedefs/` und `proptypes/` sind tabu.** Sie gehören zur
    Grundausstattung oder kommen aus einem Bundle. Eigene Typen legst du
    daneben.
