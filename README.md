@@ -64,5 +64,5 @@ Dieses Repository ist eine Vorlage. Auf GitHub erzeugt „Use this template"
 daraus ein neues, eigenständiges Repository ohne Historie:
 
 ```
-gh repo create meine-wissensbasis --template <benutzer>/<vorlage> --private
+gh repo create meine-wissensbasis --template arpablo/hkf-kb-template --private
 ```
