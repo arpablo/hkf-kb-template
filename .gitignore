@@ -1,3 +1,6 @@
+# Sitzungsprotokolle und Suchindex der Werkzeugumgebung
+.memsearch/
+
 # persönliches Fensterlayout von Obsidian
 .obsidian/workspace.json
 

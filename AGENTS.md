@@ -3,7 +3,7 @@
 Eine Wissensbasis im Format **HKF Core 1.0**. Einstieg ist `hkb.md`.
 Zeiten gelten in `Europe/Berlin`.
 
-## Sechs Regeln, bevor du etwas änderst
+## Sieben Regeln, bevor du etwas änderst
 
 1. **Der Pfad bestimmt den Typ.** Eine Notiz gehört zu dem Typ, unter dessen
    Verzeichnis sie liegt; `type` im Frontmatter muss dazu passen.
@@ -23,6 +23,11 @@ Zeiten gelten in `Europe/Berlin`.
 6. **`typedefs/` und `proptypes/` sind tabu.** Sie gehören zur
    Grundausstattung oder kommen aus einem Bundle. Eigene Typen legst du
    daneben.
+7. **`# Siehe auch` wird ergänzt, nicht gekürzt.** Der Abschnitt steht am Ende
+   einer Notiz; jede Zeile ist ein Verweis, ein ` — ` und der Grund, warum er
+   dasteht. Du darfst Zeilen hinzufügen — mit Grund —, aber keine entfernen:
+   Entfernen ist Sache eines Menschen. Ein Ziel, das in `rejected_links`
+   steht, verlinkst du nicht.
 
 ## Typen dieser Wissensbasis
 
