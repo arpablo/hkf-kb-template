@@ -41,7 +41,7 @@ Quelle.
 
     person · organisation · place · event · source · term · topic · note · specification
 
-Es kommt als Bundle `hkf` und wird mit `hk-import` geladen. Danach steht in
+Es kommt als Bundle `hkf-base` und wird mit `hk-import` geladen. Danach steht in
 `bundles/` eine Notiz, die festhält, was übernommen wurde, und jede
 übernommene Notiz trägt die Zugehörigkeit in ihrer `bundles`-Property.
 
