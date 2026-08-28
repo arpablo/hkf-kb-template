@@ -51,11 +51,12 @@ oder Inhalte weitergegeben werden sollen.
 
 ## Die Spezifikation
 
-`hkf: "1.0"` in `hkb.md` sagt, welche Fassung von Core gilt. Wo sie zu lesen
-ist, sagt die optionale Property `spec` — als URL oder als Verweis auf eine
-eigene Notiz vom Typ `specification`. Die Wikilink-Form setzt allerdings
-voraus, dass dieser Typ vorhanden ist, und er kommt erst mit Base. `spec` ist
-hier nicht gesetzt; trag die Adresse ein, unter der du Core erreichst.
+`hkf: "1.0"` in `hkb.md` sagt, welche Fassung von Core gilt, `spec`, wo sie zu
+lesen ist — hier die öffentliche Adresse des Dokuments.
+
+Statt einer URL darf dort auch ein Verweis auf eine eigene Notiz vom Typ
+`specification` stehen, die das Dokument beschreibt oder enthält. Das setzt
+allerdings voraus, dass dieser Typ vorhanden ist, und er kommt erst mit Base.
 
 ## Als Vorlage benutzen
 
