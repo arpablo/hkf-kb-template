@@ -32,24 +32,31 @@ beschreiben, das die Typen nachreicht.
 
 ## Core und Base
 
-**HKF Core** beschreibt, wie eine Ablage aufgebaut ist — Verzeichnisse,
-Wertformen, Verweise, Bundle-Format, Methoden. Es nennt keinen einzigen
-inhaltlichen Typ, und genau das liegt hier: keine Person, kein Ort, keine
-Quelle.
+[**HKF Core**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Core-V1.0.md) beschreibt, wie eine Ablage aufgebaut ist —
+Verzeichnisse, Wertformen, Verweise, Bundle-Format, Methoden. Es nennt keinen
+einzigen inhaltlichen Typ, und genau das liegt hier: keine Person, kein Ort,
+keine Quelle.
 
-**HKF Base** ist das Vokabular dafür: neun Typdefinitionen für
+[**HKF Base**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) ist das Vokabular dafür: neun Typdefinitionen für
 
     person · organisation · place · event · source · term · topic · note · specification
 
-Es kommt als Bundle `hkf-base` und wird mit `hk-import` geladen. Danach steht in
-`bundles/` eine Notiz, die festhält, was übernommen wurde, und jede
-übernommene Notiz trägt die Zugehörigkeit in ihrer `bundles`-Property.
+Es kommt als Bundle [`hkf-base`](https://github.com/arpablo/hkf-base) und wird mit `hk-import` geladen.
+Danach steht in `bundles/` eine Notiz, die festhält, was übernommen wurde, und
+jede übernommene Notiz trägt die Zugehörigkeit in ihrer `bundles`-Property.
 
 Der Import ist freiwillig. Wer andere Gegenstände verwaltet, legt einfach
 eigene Typdefinitionen in `typedefs/` an. Ein Bundle ist nur nötig, wenn Typen
 oder Inhalte weitergegeben werden sollen.
 
 ## Die Spezifikation
+
+| Dokument | |
+|---|---|
+| [`HKF-Core-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Core-V1.0.md) | Wie eine Ablage aufgebaut ist |
+| [`HKF-Base-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) | Das Standardvokabular |
+
+Beide liegen im Repository [`hkf-spec`](https://github.com/arpablo/hkf-spec).
 
 `hkf: "1.0"` in `hkb.md` sagt, welche Fassung von Core gilt, `spec`, wo sie zu
 lesen ist — hier die öffentliche Adresse des Dokuments.
