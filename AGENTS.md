@@ -1,6 +1,6 @@
 # Meine Wissensbasis
 
-Eine Wissensbasis im Format **HKF 1.0**. Einstieg ist `hkb.md`.
+Eine Wissensbasis im Format **HKF Core 1.0**. Einstieg ist `hkb.md`.
 Zeiten gelten in `Europe/Berlin`.
 
 ## Sechs Regeln, bevor du etwas änderst
