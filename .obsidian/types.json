@@ -11,6 +11,7 @@
     "modified": "datetime",
     "modified_by": "text",
     "bundles": "multitext",
+    "related": "multitext",
     "rejected_links": "multitext",
     "dir": "text",
     "provisional": "checkbox",

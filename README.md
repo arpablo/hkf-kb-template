@@ -22,11 +22,11 @@ sonst nichts — keinen Inhalt, keine Bundles, kein Vokabular.
 | `AGENTS.md` | die Anleitung für Sprachmodelle und Werkzeuge |
 | `CLAUDE.md` | verweist auf `AGENTS.md` |
 | `typedefs/` | die 3 Basistypen `typedef`, `proptype`, `bundle` |
-| `proptypes/` | die 12 Standard-Property-Typen |
+| `proptypes/` | die 13 Standard-Property-Typen |
 | `bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
 | `media/` | `images`, `videos`, `audios`, `documents` — noch leer |
 
-Diese 15 Notizen sind die **Grundausstattung**. Sie entsteht mit der
+Diese 16 Notizen sind die **Grundausstattung**. Sie entsteht mit der
 Wissensbasis und wird nicht geliefert; ohne sie ließe sich kein Bundle
 beschreiben, das die Typen nachreicht.
 
