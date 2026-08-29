@@ -3,7 +3,7 @@ type: proptype
 form: text
 pattern: '^Q[1-9]\d*$'
 created: 2026-08-27
-modified: 2026-08-27T15:31:41
+modified: 2026-08-29T07:55:00
 modified_by: claude-opus-5
 ---
 
