@@ -19,8 +19,6 @@ sonst nichts — keinen Inhalt, keine Bundles, kein Vokabular.
 | Pfad | Inhalt |
 |---|---|
 | `hkb.md` | Wurzeldatei: Formatversion, Name, Pfade, Typtabelle |
-| `AGENTS.md` | die Anleitung für Sprachmodelle und Werkzeuge |
-| `CLAUDE.md` | verweist auf `AGENTS.md` |
 | `typedefs/` | die 3 Basistypen `typedef`, `proptype`, `bundle` |
 | `proptypes/` | die 13 Standard-Property-Typen |
 | `bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
