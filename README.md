@@ -19,12 +19,12 @@ sonst nichts — keinen Inhalt, keine Bundles, kein Vokabular.
 | Pfad | Inhalt |
 |---|---|
 | `hkb.md` | Wurzeldatei: Formatversion, Name, Pfade, Typtabelle |
-| `Typedefs/` | die 3 Basistypen `typedef`, `proptype`, `bundle` |
-| `Proptypes/` | die 13 Standard-Property-Typen |
+| `Typedefs/` | die 17 Basistypen `typedef`, `proptype`, `bundle` |
+| `Proptypes/` | die 15 Standard-Property-Typen |
 | `Bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
 | `media/` | `images`, `videos`, `audios`, `documents` — noch leer |
 
-Diese 16 Notizen sind die **Grundausstattung**. Sie entsteht mit der
+Diese 32 Notizen sind die **Grundausstattung**. Sie entsteht mit der
 Wissensbasis und wird nicht geliefert; ohne sie ließe sich kein Bundle
 beschreiben, das die Typen nachreicht.
 
@@ -42,14 +42,14 @@ Grundausstattung; die übrigen vierzehn sind das Vokabular:
     person · organisation · place · city · country · event · source
     term · concept · comparison · topic · note · specification · hint
 
-Es kommt als Bundle [`hkf-base`](https://github.com/arpablo/hkf-base) und wird mit
-[`hk-import`](https://github.com/arpablo/hkf-harness) geladen.
-Danach steht in `Bundles/` eine Notiz, die festhält, was übernommen wurde, und
-jede übernommene Notiz trägt die Zugehörigkeit in ihrer `bundles`-Property.
+Alle siebzehn liegen hier. Geliefert wird davon nichts — was jede Wissensbasis
+ohnehin bekommt, muss niemand ausliefern. Ein Bundle bringt Inhalte mit und,
+wenn es einen Typ braucht, den Config nicht kennt, dessen Typdefinition dazu;
+geladen wird es mit [`hk-import`](https://github.com/arpablo/hkf-harness). Danach steht in `Bundles/`
+eine Notiz, die festhält, was übernommen wurde.
 
-Der Import ist freiwillig. Wer andere Gegenstände verwaltet, legt einfach
-eigene Typdefinitionen in `Typedefs/` an. Ein Bundle ist nur nötig, wenn Typen
-oder Inhalte weitergegeben werden sollen.
+Wer andere Gegenstände verwaltet, legt eigene Typdefinitionen in `Typedefs/`
+an und lässt die ungenutzten liegen.
 
 ## Die Spezifikation
 
