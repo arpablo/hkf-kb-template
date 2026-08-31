@@ -37,10 +37,10 @@ keine Quelle.
 
 [**HKF Config**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md) nennt daneben jede Typdefinition und jeden
 Property-Typ. Drei Typen und dreizehn Property-Typen davon liegen hier als
-Grundausstattung; die übrigen zwölf sind das Vokabular:
+Grundausstattung; die übrigen vierzehn sind das Vokabular:
 
-    person · organisation · place · event · source · term · concept
-    comparison · topic · note · specification · hint
+    person · organisation · place · city · country · event · source
+    term · concept · comparison · topic · note · specification · hint
 
 Es kommt als Bundle [`hkf-base`](https://github.com/arpablo/hkf-base) und wird mit
 [`hk-import`](https://github.com/arpablo/hkf-harness) geladen.
