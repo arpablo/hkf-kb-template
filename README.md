@@ -28,14 +28,16 @@ Diese 16 Notizen sind die **Grundausstattung**. Sie entsteht mit der
 Wissensbasis und wird nicht geliefert; ohne sie ließe sich kein Bundle
 beschreiben, das die Typen nachreicht.
 
-## Core und Base
+## Core und Config
 
 [**HKF Core**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Core-V1.0.md) beschreibt, wie eine Ablage aufgebaut ist —
 Verzeichnisse, Wertformen, Verweise, Bundle-Format, Methoden. Es nennt keinen
 einzigen inhaltlichen Typ, und genau das liegt hier: keine Person, kein Ort,
 keine Quelle.
 
-[**HKF Base**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) ist das Vokabular dafür: zwölf Typdefinitionen für
+[**HKF Config**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md) nennt daneben jede Typdefinition und jeden
+Property-Typ. Drei Typen und dreizehn Property-Typen davon liegen hier als
+Grundausstattung; die übrigen zwölf sind das Vokabular:
 
     person · organisation · place · event · source · term · concept
     comparison · topic · note · specification · hint
@@ -54,7 +56,7 @@ oder Inhalte weitergegeben werden sollen.
 | Dokument | |
 |---|---|
 | [`HKF-Core-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Core-V1.0.md) | Wie eine Ablage aufgebaut ist |
-| [`HKF-Base-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) | Das Standardvokabular |
+| [`HKF-Config-V1.0.md`](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md) | Alle Typdefinitionen und Property-Typen |
 
 Beide liegen im Repository [`hkf-spec`](https://github.com/arpablo/hkf-spec).
 
