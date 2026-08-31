@@ -40,7 +40,8 @@ keine Quelle.
     person · organisation · place · event · source · term · concept
     comparison · topic · note · specification
 
-Es kommt als Bundle [`hkf-base`](https://github.com/arpablo/hkf-base) und wird mit `hk-import` geladen.
+Es kommt als Bundle [`hkf-base`](https://github.com/arpablo/hkf-base) und wird mit
+[`hk-import`](https://github.com/arpablo/hkf-harness) geladen.
 Danach steht in `bundles/` eine Notiz, die festhält, was übernommen wurde, und
 jede übernommene Notiz trägt die Zugehörigkeit in ihrer `bundles`-Property.
 
