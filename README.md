@@ -35,9 +35,10 @@ Verzeichnisse, Wertformen, Verweise, Bundle-Format, Methoden. Es nennt keinen
 einzigen inhaltlichen Typ, und genau das liegt hier: keine Person, kein Ort,
 keine Quelle.
 
-[**HKF Base**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) ist das Vokabular dafür: neun Typdefinitionen für
+[**HKF Base**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Base-V1.0.md) ist das Vokabular dafür: elf Typdefinitionen für
 
-    person · organisation · place · event · source · term · topic · note · specification
+    person · organisation · place · event · source · term · concept
+    comparison · topic · note · specification
 
 Es kommt als Bundle [`hkf-base`](https://github.com/arpablo/hkf-base) und wird mit `hk-import` geladen.
 Danach steht in `bundles/` eine Notiz, die festhält, was übernommen wurde, und
