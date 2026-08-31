@@ -19,9 +19,9 @@ sonst nichts — keinen Inhalt, keine Bundles, kein Vokabular.
 | Pfad | Inhalt |
 |---|---|
 | `hkb.md` | Wurzeldatei: Formatversion, Name, Pfade, Typtabelle |
-| `typedefs/` | die 3 Basistypen `typedef`, `proptype`, `bundle` |
-| `proptypes/` | die 13 Standard-Property-Typen |
-| `bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
+| `Typedefs/` | die 3 Basistypen `typedef`, `proptype`, `bundle` |
+| `Proptypes/` | die 13 Standard-Property-Typen |
+| `Bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
 | `media/` | `images`, `videos`, `audios`, `documents` — noch leer |
 
 Diese 16 Notizen sind die **Grundausstattung**. Sie entsteht mit der
@@ -42,11 +42,11 @@ keine Quelle.
 
 Es kommt als Bundle [`hkf-base`](https://github.com/arpablo/hkf-base) und wird mit
 [`hk-import`](https://github.com/arpablo/hkf-harness) geladen.
-Danach steht in `bundles/` eine Notiz, die festhält, was übernommen wurde, und
+Danach steht in `Bundles/` eine Notiz, die festhält, was übernommen wurde, und
 jede übernommene Notiz trägt die Zugehörigkeit in ihrer `bundles`-Property.
 
 Der Import ist freiwillig. Wer andere Gegenstände verwaltet, legt einfach
-eigene Typdefinitionen in `typedefs/` an. Ein Bundle ist nur nötig, wenn Typen
+eigene Typdefinitionen in `Typedefs/` an. Ein Bundle ist nur nötig, wenn Typen
 oder Inhalte weitergegeben werden sollen.
 
 ## Die Spezifikation
