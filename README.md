@@ -19,12 +19,12 @@ sonst nichts — keinen Inhalt, keine Bundles, kein Vokabular.
 | Pfad | Inhalt |
 |---|---|
 | `hkb.md` | Wurzeldatei: Formatversion, Name, Pfade, Typtabelle |
-| `Typedefs/` | die 17 Basistypen `typedef`, `proptype`, `bundle` |
-| `Proptypes/` | die 15 Standard-Property-Typen |
+| `Typedefs/` | die 20 Basistypen `typedef`, `proptype`, `bundle` |
+| `Proptypes/` | die 16 Standard-Property-Typen |
 | `Bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
 | `Media/` | `Images`, `Videos`, `Audios`, `Documents` — noch leer |
 
-Diese 32 Notizen sind die **Grundausstattung**. Sie entsteht mit der
+Diese 36 Notizen sind die **Grundausstattung**. Sie entsteht mit der
 Wissensbasis und wird nicht geliefert; ohne sie ließe sich kein Bundle
 beschreiben, das die Typen nachreicht.
 
@@ -36,13 +36,13 @@ einzigen inhaltlichen Typ, und genau das liegt hier: keine Person, kein Ort,
 keine Quelle.
 
 [**HKF Config**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md) nennt daneben jede Typdefinition und jeden
-Property-Typ. Drei Typen und dreizehn Property-Typen davon liegen hier als
+Property-Typ. Drei Typen und vierzehn Property-Typen davon liegen hier als
 Grundausstattung; die übrigen vierzehn sind das Vokabular:
 
     person · organisation · place · city · country · event · source
     term · concept · comparison · topic · note · specification · hint
 
-Alle siebzehn liegen hier. Geliefert wird davon nichts — was jede Wissensbasis
+Alle zwanzig liegen hier. Geliefert wird davon nichts — was jede Wissensbasis
 ohnehin bekommt, muss niemand ausliefern. Ein Bundle bringt Inhalte mit und,
 wenn es einen Typ braucht, den Config nicht kennt, dessen Typdefinition dazu;
 geladen wird es mit [`hk-import`](https://github.com/arpablo/hkf-harness). Danach steht in `Bundles/`
