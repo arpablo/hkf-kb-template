@@ -19,12 +19,12 @@ sonst nichts — keinen Inhalt, keine Bundles, kein Vokabular.
 | Pfad | Inhalt |
 |---|---|
 | `hkb.md` | Wurzeldatei: Formatversion, Name, Pfade, Typtabelle |
-| `Typedefs/` | die 20 Basistypen `typedef`, `proptype`, `bundle` |
-| `Proptypes/` | die 16 Standard-Property-Typen |
+| `Typedefs/` | die 17 Basistypen `typedef`, `proptype`, `bundle` |
+| `Proptypes/` | die 17 Standard-Property-Typen |
 | `Bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
 | `Media/` | `Images`, `Videos`, `Audios`, `Documents` — noch leer |
 
-Diese 36 Notizen sind die **Grundausstattung**. Sie entsteht mit der
+Diese 34 Notizen sind die **Grundausstattung**. Sie entsteht mit der
 Wissensbasis und wird nicht geliefert; ohne sie ließe sich kein Bundle
 beschreiben, das die Typen nachreicht.
 
