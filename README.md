@@ -22,7 +22,7 @@ sonst nichts — keinen Inhalt, keine Bundles, kein Vokabular.
 | `Typedefs/` | die 17 Basistypen `typedef`, `proptype`, `bundle` |
 | `Proptypes/` | die 15 Standard-Property-Typen |
 | `Bundles/` | je eine Notiz pro importiertem Bundle — noch leer |
-| `media/` | `images`, `videos`, `audios`, `documents` — noch leer |
+| `media/` | `Images`, `Videos`, `Audios`, `Documents` — noch leer |
 
 Diese 32 Notizen sind die **Grundausstattung**. Sie entsteht mit der
 Wissensbasis und wird nicht geliefert; ohne sie ließe sich kein Bundle
