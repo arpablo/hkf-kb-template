@@ -36,13 +36,13 @@ einzigen inhaltlichen Typ, und genau das liegt hier: keine Person, kein Ort,
 keine Quelle.
 
 [**HKF Config**](https://github.com/arpablo/hkf-spec/blob/main/HKF-Config-V1.0.md) nennt daneben jede Typdefinition und jeden
-Property-Typ. Drei Typen und vierzehn Property-Typen davon liegen hier als
-Grundausstattung; die übrigen vierzehn sind das Vokabular:
+Property-Typ: siebzehn und siebzehn. Drei der Typen sind die Kern-Typen
+`typedef`, `proptype` und `bundle`; die übrigen vierzehn sind das Vokabular:
 
     person · organisation · place · city · country · event · source
     term · concept · comparison · topic · note · specification · hint
 
-Alle zwanzig liegen hier. Geliefert wird davon nichts — was jede Wissensbasis
+Alle siebzehn liegen hier. Geliefert wird davon nichts — was jede Wissensbasis
 ohnehin bekommt, muss niemand ausliefern. Ein Bundle bringt Inhalte mit und,
 wenn es einen Typ braucht, den Config nicht kennt, dessen Typdefinition dazu;
 geladen wird es mit [`hk-import`](https://github.com/arpablo/hkf-harness). Danach steht in `Bundles/`
