@@ -1,0 +1,7 @@
+filters:
+  and:
+    - type == link("90-System/Types/Type Topic", "Topic")
+    - '!file.path.startsWith("90-System/Templates")'
+views:
+  - type: table
+    name: Tabelle
